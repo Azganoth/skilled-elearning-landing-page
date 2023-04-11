@@ -2,12 +2,13 @@
   "name": "skilled-elearning-landing-page",
   "version": "1.0.0",
   "scripts": {
-    "build": "tailwindcss -o css/style.css",
-    "dev": "tailwindcss -o css/style.css -w",
+    "build": "tailwindcss -i css/tailwind.css -o css/style.css",
+    "dev": "tailwindcss -i css/tailwind.css -o css/style.css -w",
     "format": "prettier --write ."
   },
   "devDependencies": {
     "prettier": "~2.8.7",
+    "prettier-plugin-tailwindcss": "~0.2.7",
     "tailwindcss": "~3.3.1"
   }
 }
