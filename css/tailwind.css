@@ -1,3 +1,84 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../assets/fonts/plus_jakarta_sans/PlusJakartaSans-Medium.ttf)
+      format("truetype");
+  }
+
+  @font-face {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../assets/fonts/plus_jakarta_sans/PlusJakartaSans-Bold.ttf)
+      format("truetype");
+  }
+
+  @font-face {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(../assets/fonts/plus_jakarta_sans/PlusJakartaSans-ExtraBold.ttf)
+      format("truetype");
+  }
+}
+
+@layer components {
+  /* headings */
+  .heading-xl {
+    @apply font-sans text-[40px] font-extrabold leading-[51px] dekstop:text-[56px] dekstop:leading-[72px];
+  }
+
+  .heading-lg {
+    @apply font-sans text-[32px] font-extrabold leading-[40px] dekstop:text-[40px] dekstop:leading-[51px];
+  }
+
+  .heading-md {
+    @apply font-sans text-[24px] font-extrabold leading-[32px] dekstop:text-[32px] dekstop:leading-[40px];
+  }
+
+  .heading-sm {
+    @apply font-sans text-[20px] font-extrabold leading-[25px] dekstop:text-[24px] dekstop:leading-[28px];
+  }
+
+  .body-md {
+    @apply font-sans text-[16px] font-medium leading-[26px] dekstop:text-[18px] dekstop:leading-[28px];
+  }
+
+  .body-sm {
+    @apply font-sans text-[14px] font-bold leading-[28px] dekstop:text-[16px] dekstop:leading-[28px];
+  }
+
+  /* card */
+  .card {
+    @apply relative mt-[24px] flex flex-col rounded-[10px] bg-white pb-[32px] pl-[28px] pr-[29px] pt-[56px] drop-shadow-[0_25px_50px_rgba(6,22,141,0.0221)] before:absolute before:-top-[24px] before:left-[28px] before:h-[56px] before:w-[56px] tablet:pb-[33px] tablet:pl-[32px] tablet:pr-[21px] before:tablet:left-[32px] dekstop:rounded-[15px] dekstop:pb-[41px] dekstop:pr-[32px] dekstop:pt-[65px];
+  }
+
+  .card h3 {
+    @apply heading-sm;
+  }
+
+  .card p {
+    @apply pb-[23px] pt-[17px] text-roman-silver tablet:pt-[16px] dekstop:py-[24px];
+  }
+
+  .card a {
+    @apply mt-auto block text-[18px] font-bold leading-[28px] text-sasquatch-socks hover:text-carnation-pink;
+  }
+}
+
+@layer utilities {
+  .gradient-hover {
+    /* "vertical-align: top" é necessário ao usar "overflow: hidden" em um "display: inline-block"
+      por causa de um bug no chromium https://bugs.chromium.org/p/chromium/issues/detail?id=176244 */
+    @apply relative overflow-hidden align-top before:absolute before:inset-0 before:bg-white before:opacity-0 before:content-[''] hover:before:opacity-50;
+  }
+}
