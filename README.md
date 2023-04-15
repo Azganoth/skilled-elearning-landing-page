@@ -8,6 +8,8 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
   - [Author](#author)
@@ -21,14 +23,14 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-<!-- ### Screenshot
+### Screenshot
 
-![](/screenshot.jpg) -->
+![](/screenshot.png)
 
-<!-- ### Links
+### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Solution URL: [Mobile-first solution using TailwindCSS](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-tailwindcss-USH-IEmyIY)
+- Live Site URL: [Frontend Mentor | Skilled e-learning landing page](https://azganoth.github.io/skilled-elearning-landing-page/)
 
 ## My process
 
@@ -38,11 +40,6 @@ Users should be able to:
 - CSS3
 - Mobile-first workflow
 - [TailwindCSS](https://tailwindcss.com/)
-
-<!-- ### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
 
 ## Author
 
