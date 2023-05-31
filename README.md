@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Mobile-first solution using TailwindCSS](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-tailwindcss-USH-IEmyIY)
+- Solution URL: [Mobile-first solution using TailwindCSS](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-tailwindcss-9FrumaoHWb)
 - Live Site URL: [Frontend Mentor | Skilled e-learning landing page](https://azganoth.github.io/skilled-elearning-landing-page/)
 
 ## My process
