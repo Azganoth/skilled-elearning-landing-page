@@ -7,7 +7,7 @@ This is a solution for the [Skilled E-learning Landing Page challenge on Fronten
 - [Overview](#overview)
 - [Development](#development)
   - [Stack](#stack)
-  - [Workflow and Automation](#workflow-and-automation)
+  - [Tools and Workflow](#tools-and-workflow)
 - [Showcase](#showcase)
   - [Links](#links)
   - [Screenshots](#screenshots)
